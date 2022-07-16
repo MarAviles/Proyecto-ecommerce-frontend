@@ -1,0 +1,20 @@
+<div id="menu">
+    <ul>
+        <li *ngFor = "let categoria of categorias" class="opciones" 
+            (click)="obtenerProductosxTipo(categoria.categoria)"
+            [ngClass]=" categoriaSelecionada != categoria.categoria  ? '' : 'opciones-selecionada' ">
+            {{categoria.categoria}}
+        </li>
+    </ul>
+</div>
+
+<div class="contenedor">
+    <div (click)="obtenerId(producto.id)" class="card" *ngFor="let producto of productos">
+        <img src="assets/img/{{producto.genero}}/{{producto.imagen}}">
+        <div class="content">
+            <p id="nombre">{{producto.nombre}} </p>
+            <p><b>MXN {{producto.precio}}.00</b></p> 
+        </div>
+    </div>
+</div>
+

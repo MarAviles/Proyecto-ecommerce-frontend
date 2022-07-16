@@ -1,0 +1,71 @@
+.contenedor {
+    margin: 11em;
+    margin-top: 30px;
+    height: 40em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    height: 100%;
+}
+
+#imagen {
+    width: 45%;
+    margin: 0px auto;
+}
+
+#imagen img {
+    height: 100%;
+    display: block;
+    margin:auto;
+}
+
+#detalles {
+    width: 55%;
+}
+
+#informacion {
+    font-family: 'Open Sans', sans-serif;
+    padding: 70px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+#nombreproducto {
+    font-size: 28px;
+}
+
+#precioproducto{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#descripcion {
+    font-size: 15px;
+    width: 90%;
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#stack {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 50px;
+    border: none;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+ cursor: pointer;
+}
+

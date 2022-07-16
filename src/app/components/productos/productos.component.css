@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.opciones{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    list-style-type: none;
+    background-color: transparent;
+    width: fit-content;
+    margin: 5px;
+    padding: 13px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.opciones-selecionada {
+    border: 1px solid rgba(240, 46, 170);
+}
+
+.opciones:hover {
+    cursor: pointer;
+    border: 1px solid rgba(240, 46, 170);
+}
+
+.contenedor {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.card {
+    max-width: 250px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+#nombre {
+    margin-bottom: 8px;
+}
